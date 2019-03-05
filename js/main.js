@@ -88,8 +88,6 @@
 		// Line 89 to 93 contains code for fixing second bug
 		piecesBoard.innerHTML = "";
 
-		dropzones.forEach((e) => {e.innerHTML = ''})
-
 		createPuzzlePieces(this.dataset.puzzleref);
 	}
 
